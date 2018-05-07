@@ -1,0 +1,13 @@
+explanation of settings.png class diagram
+
+
+The optionsGUI has multiple radiogroups with radiobuttons that govern a number of settings.
+the handlers of these radiobuttons can be seen in the methods of the optionsGUI class.
+radiobuttonMusic handles the playing of the background music by setting a boolean in the AudioHandler class
+
+radiobuttonSoundEffects handles the playing of the button click and piece move sounds via a different boolean in the AudioHandler.
+
+radiobuttonSelection handles the different piece icons by setting a boolean in the CreateChessPieces class
+
+
+Radiobutton rotation handles whether the chessboard rotates on turns by changing a boolean in Board( not boardGUI) this is an Error

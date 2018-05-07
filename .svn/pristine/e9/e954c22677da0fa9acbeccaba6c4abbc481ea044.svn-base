@@ -1,0 +1,20 @@
+﻿As a user, I can quit the game
+
+
+A user can quit the game using the close button. This will prompt whether they want to save the game before fully exiting the game.
+
+
+Acceptance criteria:
+* User uses the red X at the top of the GUI to quit the game
+* User gets a prompt to save the game
+* Application closes entirely
+
+
+Programming tasks:
+* Confirmation dialog to save game or not, which calls save a game
+* Unit testing
+* Write testcase
+
+
+Estimated programmer points: 1
+Priority in MoSCoW: Must
